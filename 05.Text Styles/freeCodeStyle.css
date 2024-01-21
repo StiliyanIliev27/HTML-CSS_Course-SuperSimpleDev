@@ -1,0 +1,32 @@
+body p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.freeCode-link{
+    font-weight: bold;
+}
+
+.freeCode-tag{
+    color: #666666;
+    font-weight: normal;
+}
+
+.text-info{
+    width: 500px;
+    margin-top: 5px;
+}
+
+.final-words{
+    margin-top: 18px;
+}
+
+.person-link{
+    color: #4B9AE8;
+    cursor: pointer;
+}
+
+.person-link:active{
+    opacity: 0.8;
+}

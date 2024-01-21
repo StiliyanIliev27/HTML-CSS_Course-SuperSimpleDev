@@ -1,0 +1,32 @@
+body p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.price{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.currency{
+    font-size: 10px;
+    color: grey;
+}
+
+.percentage{
+    font-size: 9px;
+    color: green;
+    margin-left: 2px;
+}
+
+.prediction{
+    font-size: 9px;
+    color: grey;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+.prediction-results{
+    color: red;
+}
