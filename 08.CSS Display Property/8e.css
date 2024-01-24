@@ -1,0 +1,51 @@
+
+
+p{
+    font-family: 'Open Sans';   
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 500px;
+}
+
+input{
+    display: block;
+    background-color: #F0F0F0;
+    color: #757575;
+    border: none;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 350px;
+}
+
+.request-now-button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 11px;
+    padding-left: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 17px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.shedule-button{
+    background-color: #F0F0F0;
+    color: black;
+    border: none;
+    margin-top: 11px;
+    margin-left: 15px;
+    padding-left: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 17px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+

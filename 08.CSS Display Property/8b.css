@@ -1,0 +1,16 @@
+p{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button{
+    display: inline-block;
+    border-radius: 3px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: darkgrey;
+}

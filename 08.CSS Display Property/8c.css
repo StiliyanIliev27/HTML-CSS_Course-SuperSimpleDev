@@ -1,0 +1,17 @@
+.search-bar{
+    border: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 30px;
+}
+
+img{
+    width: 180px;
+    display: block;
+    margin-left: 130px;
+}

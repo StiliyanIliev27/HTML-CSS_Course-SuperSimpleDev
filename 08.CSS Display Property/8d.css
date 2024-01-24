@@ -1,0 +1,41 @@
+
+input{
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.first-name,
+.last-name{
+    display: inline-block;
+    width: 100px;
+}
+
+.email{
+    display: block;
+    margin-top: 8px;
+    width: 217px;
+}
+
+button{
+    display: block;
+    margin-top: 8px;
+    width: 230px;
+    background-color: #3975EA;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+
+button:active{
+    opacity: 0.7;
+}
