@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 17px;
+        }
+
+        .info{
+            margin-left: 10px;
+            width: 200px;
+        }
+
+        .profile-picture{
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+        
+        .name{
+            font-weight: bold;
+        }        
+
+        .follow-button{
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 3px;
+            border: none;
+            background-color: #4193EF;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .nickname{
+            color: #8E8E8E;
+            margin-top: 3px;
+        }
+
+        .category{
+            color: #8E8E8E;
+            font-size: 14px;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">   
+        <img class="profile-picture" src="cat.jpg">     
+        <div class="info">           
+            <p class="name">oliver</p>
+            <p class="nickname">the cat</p>
+            <p class="category">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="row">
+        <img class="profile-picture" src="mimi-cat.jpg">
+        <div class="info">
+            <p class="name">Mimi</p>
+            <p class="nickname">Sleepy cat</p>
+            <p class="category">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="row">
+        <img class="profile-picture" src="rex-dog.jpg">
+        <div class="info">
+            <p class="name">Rex</p>
+            <p class="nickname">Happy Bulldog</p>
+            <p class="category">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+    </div>
+</body>
+</html>

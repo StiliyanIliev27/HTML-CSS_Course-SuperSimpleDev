@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border-color: #D4D4D4;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 4px;
+            width: 330px;
+            height: 120px;
+        }
+
+        .home-info, .notifications-info, .messages-info{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .home, .notifications, .messages, .count{
+            margin-top: 0;
+            margin-bottom: 0;   
+            margin-left: 13px;
+            margin-right: 13px;     
+            padding-top: 10px;
+            padding-bottom: 10px;  
+        }
+
+        .count{
+            color: white;
+            font-weight: bold;
+            border: none;
+            background-color: #416CEC;
+            border-radius: 15px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="home-info">
+            <p class="home">Home</p>
+            <p class="count">14</p>
+        </div>
+
+        <div class="notifications-info">
+            <p class="notifications">Notifications</p>
+            <p class="count">3</p>
+        </div>
+
+        <div class="messages-info">
+            <p class="messages">Messages</p>
+            <p class="count">5</p>
+        </div>
+    </div>
+</body>
+</html>
