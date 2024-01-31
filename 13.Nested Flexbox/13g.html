@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .first-row{
+            display: flex;
+            flex-direction: row;
+            width: 420px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .picture{
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+
+        .tweet-content{
+            flex: 1;
+        }
+
+        .info-container{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 5px;
+        }
+
+        .account-name{
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .account-nickname{
+            color: #566370;
+            font-size: 15px;
+            margin-left: 3px;
+        }
+
+        .youtube-container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(200, 200, 200);
+            border-radius: 15px;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        .background-video-picture{
+            background-color: #D3D3D3;
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        .youtube-container-2{
+            flex: 1;
+        }
+
+        .youtube-link{
+            color: #566370;
+            margin-bottom: 4px;
+        }
+
+        .youtube-title{
+            line-height: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first-row">
+            <img class="picture" src="cat.jpg">
+            <div class="tweet-content">
+                <div class="info-container">
+                    <div class="account-name">supersimple.dev</div>
+                    <div class="account-nickname">@SuperSimpleDev</div>
+                </div>
+                <div class="info-text">
+                    What is backend web development? A complete overview. New video is up!
+                </div>
+                <div class="youtube-container">
+                    <div class="background-video-picture"></div>
+                    <div class="youtube-container-2">
+                        <div class="youtube-link">youtube.com</div>
+                        <div class="youtube-title">Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+</body>
+</html>
