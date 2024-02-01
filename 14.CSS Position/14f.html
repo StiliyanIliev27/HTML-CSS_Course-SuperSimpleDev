@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first-sidebar{
+            background-color: #202225;
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            width: 80px;
+        }
+
+        .second-sidebar{
+            background-color: #303136;
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+            left: 80px;
+            width: 200px;
+        }
+
+        .flex-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img{
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+
+        img:nth-child(1){
+            margin-top: 20px;
+        }
+
+        img:nth-child(2){
+            margin-top: 8px;
+        }
+
+        img:nth-child(3){
+            margin-top: 8px;
+        }
+
+        .info-flexbox{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 160px;
+            margin-left: 20px;
+        }
+
+        .info{
+            color: white;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .add{
+            color: #8F9397;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .hashtags-flexbox{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-top: 0px;
+        }
+
+        .hashtags-flexbox p{
+            color: #8F9397;
+            font-size: 17px;
+            font-family: Arial;
+            margin-bottom: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-sidebar">
+        <div class="flex-box">
+            <img src="cat.jpg">
+            <img src="mimi-cat.jpg">
+            <img src="rex-dog.jpg">
+        </div>
+    </div>
+    <div class="second-sidebar">
+        <div class="info-flexbox">
+            <p class="info">INFO</p>
+            <p class="add">+</p>
+        </div>
+        <div class="hashtags-flexbox">
+            <p># new-videos</p>
+            <p># updates</p>
+            <p># faq</p>
+        </div>
+    </div>
+</body>
+</html>

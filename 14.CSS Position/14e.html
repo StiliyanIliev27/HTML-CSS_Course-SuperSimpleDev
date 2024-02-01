@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+        }
+
+        .flex-box{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 50px;
+            margin-top: 5px;
+            align-items: center;
+            width: 800px;
+        }
+
+        .picture-name{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .cat-picture{
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        
+        p{
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .add-friend-button{
+            background-color: #3871DD;
+            font-weight: bold;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .message-button{
+            background-color: #E4E6EA;
+            font-weight: bold;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="flex-box">
+            <div class="picture-name">
+                <img class="cat-picture" src="cat.jpg">
+                <p>Oliver Cat</p>
+            </div>
+            <div class="buttons">
+                <button class="add-friend-button">Add Friend</button>
+                <button class="message-button">Message</button>
+            </div>      
+        </div>       
+    </div>
+</body>
+</html>
